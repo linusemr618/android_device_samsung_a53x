@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,9 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-# FOD
-TARGET_HAS_FOD := true
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/a53x/device.mk)
@@ -36,9 +33,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRIVATE_BUILD_DESC="a53xnaxx-user 13 TP1A.220624.014 A536BXXU4BVJG release-keys"
+	PRIVATE_BUILD_DESC="a53xnaxx-user 14 UP1A.231005.007 A536BXXSDEXL2 release-keys"
 
 # Fingerprint	
-BUILD_FINGERPRINT := samsung/a53xnaxx/essi:13/TP1A.220624.014/A536BXXU4BVJG:user/release-keys
+BUILD_FINGERPRINT := samsung/a53xnaxx/a53x:14/UP1A.231005.007/A536BXXSDEXL2:user/release-keys
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
